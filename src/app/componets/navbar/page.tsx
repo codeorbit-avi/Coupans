@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-import SignIn from '@/app/singin/page';
+import singup from '@/app/singup/page'
 const Navbarpage = () => {
     
 
@@ -22,7 +22,7 @@ const Navbarpage = () => {
                 </nav>
 
                 <div className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full shadow-md hover:scale-105 transition duration-300 ease-in-out">
-                   <Link href='/singin'>Sign Up</Link>
+                   <Link href='/singup'>Sign Up</Link>
                 </div>
             </div>
         </header>

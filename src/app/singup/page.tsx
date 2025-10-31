@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import SignIn from '../singin/page';
+import singin from "../singin/page";
 export default function SignUp() {
     return (
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-100 to-blue-100">
@@ -31,7 +31,7 @@ export default function SignUp() {
                 </form>
                 <p className="mt-4 text-center text-sm text-gray-600">
                     Already have an account?
-                    <Link href="/SignIn" className="text-purple-600 hover:underline">Sign In</Link>
+                    <Link href="singin" className="text-purple-600 hover:underline">Sign In</Link>
                 </p>
             </div>
         </div>
